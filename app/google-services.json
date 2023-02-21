@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420205728466",
+    "project_id": "lnctbushelp",
+    "storage_bucket": "lnctbushelp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420205728466:android:21af7654ade93a55a3d30b",
+        "android_client_info": {
+          "package_name": "com.example.lnctbushelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420205728466-3s1vntd4k6ggc3kfj6sv4prl8e50di6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRHWDDHy5d19q-h1QCZv3XO1sveUBIPqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420205728466-3s1vntd4k6ggc3kfj6sv4prl8e50di6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
