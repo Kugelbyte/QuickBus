@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -33,9 +34,11 @@ public class Datafetch extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_datafetch);
+        getActionBar().hide();
 
         intent = getIntent();
         String routeNum = intent.getStringExtra("Route_Num");
+        Toast.makeText(Datafetch.this,routeNum,Toast.LENGTH_LONG).show();
         recyclerView = findViewById(R.id.userList);
         reference = FirebaseDatabase.getInstance().getReference(routeNum);
         recyclerView.setHasFixedSize(true);

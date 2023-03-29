@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2B3159"
+    android:background="@drawable/gradient_background"
     tools:context=".activity_1">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Route 2"
-        android:textColor="#FBC02D"
+        android:textColor="@color/black"
         android:textSize="30dp"
 
         android:textStyle="bold"
@@ -26,7 +26,7 @@
         android:layout_width="330dp"
         android:layout_height="488dp"
         android:layout_marginBottom="144dp"
-        android:background="#35255C"
+
         android:overScrollMode="never"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Patel Nagar"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
 
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Anand Nagar"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -60,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ratnagiri Bypass"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -68,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Kalpana Nagar"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
 
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
@@ -77,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Piplani"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -85,7 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Bima Hospital"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -93,7 +93,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Aaporti"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -101,7 +101,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="J.K. Road"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -112,10 +112,10 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#100C0C"
+        android:backgroundTint="@color/white"
         android:onClick="onClickBtn"
         android:text="Check Buses"
-        android:textColor="#FBC02D"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

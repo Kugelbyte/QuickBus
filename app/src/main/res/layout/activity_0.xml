@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2B3159"
+    android:background="@drawable/gradient_background"
     tools:context=".Activity0">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_marginTop="18dp"
         android:elevation="10dp"
         android:text="Route 1"
-        android:textColor="#FBC02D"
+        android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +26,7 @@
         android:layout_width="330dp"
         android:layout_height="488dp"
         android:layout_marginBottom="84dp"
-        android:background="#09070E"
+
         android:overScrollMode="never"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Piplani"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
 
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
@@ -51,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Chetak Bridge"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Indira Bhavan"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -67,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Naanke Petrol Pump"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
 
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="New Market/Top N Town"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Roshanpura"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -92,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Professors Colony"
-                android:textColor="#FBC02D"
+                android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold"></TextView>
 
@@ -105,10 +105,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="#100202"
+        android:backgroundTint="@color/start_Color"
         android:onClick="onClickBtn"
         android:text="Check Buses"
-        android:textColor="#FBC02D"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

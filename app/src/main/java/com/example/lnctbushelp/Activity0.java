@@ -17,6 +17,7 @@ public class Activity0 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_0);
+        getActionBar().hide();
         textView = findViewById(R.id.textViewRouteNum);
     }
 

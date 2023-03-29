@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/drawable/bus_icon_background.xml" value="0.2555" />
+        <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/drawable/gradient_background.xml" value="0.2095" />
+        <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/drawable/ic_bus_svgrepo_com.xml" value="0.1" />
         <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/layout/activity_0.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/layout/activity_1.xml" value="0.25" />
         <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/layout/activity_2.xml" value="0.25" />
         <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/layout/activity_activity0_display.xml" value="0.25" />
         <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/layout/activity_datafetch.xml" value="0.264" />
-        <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/layout/activity_splash_screen.xml" value="0.2418478260869565" />
         <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/layout/item.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/layout/list_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/nitee/AndroidStudioProjects/LNCTBusHelp/app/src/main/res/mipmap-anydpi-v26/bus_icon.xml" value="0.121" />
       </map>
     </option>
   </component>

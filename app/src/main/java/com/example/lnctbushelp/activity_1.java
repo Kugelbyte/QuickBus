@@ -16,6 +16,7 @@ public class activity_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_1);
+        getActionBar().hide();
         txtView = findViewById(R.id.textView);
         btn = findViewById(R.id.button);
 
