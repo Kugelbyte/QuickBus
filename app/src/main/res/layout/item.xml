@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="8dp"
     app:cardCornerRadius="8dp"
-    android:layout_margin="16dp">
+    android:layout_margin="16dp"
+    android:background="@drawable/gradient_background">
 
 
 
@@ -13,8 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:orientation="vertical">
-        
+        android:orientation="vertical"
+        >
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,7 +29,8 @@
                 android:layout_height="wrap_content"
                 android:text="Bus No."
                 android:textSize="26sp"
-                android:textStyle="bold"></TextView>
+                android:textStyle="bold"
+                android:textColor="@color/black"></TextView>
             <TextView
                 android:id="@+id/busNumber_1"
                 android:layout_width="wrap_content"
@@ -54,7 +57,8 @@
                 android:layout_height="wrap_content"
                 android:text="Driver"
                 android:textSize="26sp"
-                android:textStyle="bold"></TextView>
+                android:textStyle="bold"
+                android:textColor="@color/black"></TextView>
 
             <TextView
                 android:id="@+id/driverName_1"
@@ -79,6 +83,7 @@
                 android:textSize="26sp"
                 android:text="Contact"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 ></TextView>
 
             <TextView

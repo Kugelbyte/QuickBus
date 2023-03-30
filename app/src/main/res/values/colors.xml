@@ -12,5 +12,5 @@
     <color name="start_Color">#FFFFFF</color>
     <color name="mid_Color">#6DD5FA</color>
     <color name="end_Color">#2980B9</color>
-
+    <color name ="cyan">#2cb7b9</color>
 </resources>

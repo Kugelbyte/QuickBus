@@ -11,10 +11,24 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/bus_animated"
-        >
+        android:src="@drawable/bus_animated">
 
     </pl.droidsonroids.gif.GifImageView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="188dp"
+        android:text="QᴜɪᴄᴋBᴜꜱ"
+        android:textColor="@color/cyan"
+        android:textSize="50dp"
+        android:textStyle="italic" />
 
 </RelativeLayout>

@@ -34,11 +34,11 @@ public class Datafetch extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_datafetch);
-        getActionBar().hide();
+        getSupportActionBar().hide();
 
         intent = getIntent();
         String routeNum = intent.getStringExtra("Route_Num");
-        Toast.makeText(Datafetch.this,routeNum,Toast.LENGTH_LONG).show();
+
         recyclerView = findViewById(R.id.userList);
         reference = FirebaseDatabase.getInstance().getReference(routeNum);
         recyclerView.setHasFixedSize(true);

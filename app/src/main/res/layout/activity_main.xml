@@ -9,10 +9,10 @@
 
     <ScrollView
         android:id="@+id/mainScrollView"
-        android:layout_width="407dp"
-        android:layout_height="650dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
-        android:background="@drawable/gradient_background"
+
         android:overScrollMode="never"
         android:scrollbars="vertical"
 
@@ -34,14 +34,14 @@
                 android:layout_height="0.5in"
                 android:layout_margin="5dp"
 
-                app:cardBackgroundColor="@color/white"
+
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
                 <ImageView
                     android:layout_width="0.8in"
                     android:layout_height="match_parent"
-                    android:background="@color/white"
+
                     android:elevation="3dp"
                     android:src="@drawable/ic_bus_svgrepo_com">
 
@@ -64,14 +64,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="0.5in"
                 android:layout_margin="5dp"
-                app:cardBackgroundColor="@color/white"
+
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
                 <ImageView
                     android:layout_width="0.8in"
                     android:layout_height="match_parent"
-                    android:background="@color/white"
+
                     android:elevation="3dp"
                     android:src="@drawable/ic_bus_svgrepo_com">
 
@@ -94,14 +94,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="0.5in"
                 android:layout_margin="5dp"
-                app:cardBackgroundColor="@color/white"
+
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
                 <ImageView
                     android:layout_width="0.8in"
                     android:layout_height="match_parent"
-                    android:background="@color/white"
+
                     android:elevation="3dp"
                     android:src="@drawable/ic_bus_svgrepo_com">
 
