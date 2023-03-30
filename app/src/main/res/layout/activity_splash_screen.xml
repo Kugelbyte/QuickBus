@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".splashScreen"
-    android:background="@color/white"
+
     >
 
     <pl.droidsonroids.gif.GifImageView
@@ -30,5 +30,25 @@
         android:textColor="@color/cyan"
         android:textSize="50dp"
         android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="98dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-43dp"
+        android:layout_marginTop="-8dp"
+        app:srcCompat="@drawable/blob" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="154dp"
+        android:layout_height="115dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-49dp"
+        android:layout_marginBottom="-28dp"
+        app:srcCompat="@drawable/blob" />
 
 </RelativeLayout>
