@@ -46,12 +46,14 @@ public class MainActivity extends AppCompatActivity {
                                 startActivity(intent);
                                 break;
                         case 1:
-                                intent = new Intent(MainActivity.this,activity_1.class);
-                                startActivity(intent);
+                                Toast.makeText(MainActivity.this,"Information is unavailable at the moment",Toast.LENGTH_SHORT).show();
+                               /* intent = new Intent(MainActivity.this,activity_1.class);
+                                startActivity(intent);*/
                                 break;
                         case 2:
-                                intent = new Intent(MainActivity.this,Activity2.class);
-                                startActivity(intent);
+                                Toast.makeText(MainActivity.this,"Information is unavailable at the moment",Toast.LENGTH_SHORT).show();
+                                /*intent = new Intent(MainActivity.this,Activity2.class);
+                                startActivity(intent);*/
                                 break;
                     }
                 }

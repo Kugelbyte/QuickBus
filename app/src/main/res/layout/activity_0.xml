@@ -4,28 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/wave_1"
     tools:context=".Activity0">
+
 
     <TextView
         android:id="@+id/textViewRouteNum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="60dp"
         android:elevation="10dp"
         android:text="Route 1"
-        android:textColor="@color/black"
-        android:textSize="25dp"
+        android:textColor="@color/cyan"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
         android:id="@+id/mainScroll"
-        android:layout_width="330dp"
-        android:layout_height="488dp"
-        android:layout_marginBottom="84dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="170dp"
 
         android:overScrollMode="never"
         android:scrollbars="vertical"
@@ -38,63 +40,308 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Piplani"
-                android:textColor="@color/black"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
 
-                android:textSize="25dp"
-                android:textStyle="bold"></TextView>
 
-            <TextView
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="match_parent"
+
+                    android:elevation="3dp"
+                    android:src="@drawable/bus_stop">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.9in"
+
+                    android:text="Piplani"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Chetak Bridge"
-                android:textColor="@color/black"
-                android:textSize="25dp"
-                android:textStyle="bold"></TextView>
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
 
-            <TextView
+
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="match_parent"
+
+                    android:elevation="3dp"
+                    android:src="@drawable/bus_stop">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.9in"
+
+                    android:text="Chetak Bridge"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Indira Bhavan"
-                android:textColor="@color/black"
-                android:textSize="25dp"
-                android:textStyle="bold"></TextView>
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
 
-            <TextView
+
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="match_parent"
+
+                    android:elevation="3dp"
+                    android:src="@drawable/bus_stop">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.9in"
+
+                    android:text="Indira Bhavan"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Naanke Petrol Pump"
-                android:textColor="@color/black"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
 
-                android:textSize="25dp"
-                android:textStyle="bold"></TextView>
 
-            <TextView
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="match_parent"
+
+                    android:elevation="3dp"
+                    android:src="@drawable/bus_stop">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.9in"
+
+                    android:text="New Market"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="New Market/Top N Town"
-                android:textColor="@color/black"
-                android:textSize="25dp"
-                android:textStyle="bold"></TextView>
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Roshanpura"
-                android:textColor="@color/black"
-                android:textSize="25dp"
-                android:textStyle="bold"></TextView>
 
-            <TextView
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="match_parent"
+
+                    android:elevation="3dp"
+                    android:src="@drawable/bus_stop">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.9in"
+
+                    android:text="Polytechnic Square"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Professors Colony"
-                android:textColor="@color/black"
-                android:textSize="25dp"
-                android:textStyle="bold"></TextView>
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+
+
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="match_parent"
+
+                    android:elevation="3dp"
+                    android:src="@drawable/bus_stop">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.9in"
+
+                    android:text="Moti Masjid"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+
+
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="match_parent"
+
+                    android:elevation="3dp"
+                    android:src="@drawable/bus_stop">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.9in"
+
+                    android:text="KoheFiza"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+
+
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="match_parent"
+
+                    android:elevation="3dp"
+                    android:src="@drawable/bus_stop">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.9in"
+
+                    android:text="Khanuganv"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Piplani"-->
+<!--                android:textColor="@color/black"-->
+
+<!--                android:textSize="25dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Chetak Bridge"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="25dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Indira Bhavan"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="25dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Naanke Petrol Pump"-->
+<!--                android:textColor="@color/black"-->
+
+<!--                android:textSize="25dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="New Market/Top N Town"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="25dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Roshanpura"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="25dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Professors Colony"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="25dp"-->
+<!--                android:textStyle="bold"></TextView>-->
 
 
         </LinearLayout>
@@ -104,14 +351,25 @@
         android:id="@+id/buttonMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="44dp"
         android:backgroundTint="@color/start_Color"
         android:onClick="onClickBtn"
         android:text="Check Buses"
-        android:textColor="@color/black"
+        android:textColor="@color/cyan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView11"
+        android:layout_width="115dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/destination"
+         />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

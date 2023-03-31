@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/wave_1"
     tools:context=".MainActivity">
 
     <ScrollView
         android:id="@+id/mainScrollView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_width="407dp"
+        android:layout_height="375dp"
+        android:layout_alignParentStart="true"
 
         android:overScrollMode="never"
-        android:scrollbars="vertical"
 
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556">
 
 
         <LinearLayout
@@ -38,23 +40,23 @@
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
-                <ImageView
+                <pl.droidsonroids.gif.GifImageView
                     android:layout_width="0.8in"
                     android:layout_height="match_parent"
 
                     android:elevation="3dp"
-                    android:src="@drawable/ic_bus_svgrepo_com">
+                    android:src="@drawable/bus_animated">
 
-                </ImageView>
+                </pl.droidsonroids.gif.GifImageView>
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:paddingLeft="0.9in"
 
                     android:text="New Market,Royal Market, Laalghati"
                     android:textColor="@color/black"
-                    android:textSize="23sp"
+                    android:textSize="20sp"
                     android:textStyle="bold">
 
                 </TextView>
@@ -68,14 +70,14 @@
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
-                <ImageView
+                <pl.droidsonroids.gif.GifImageView
                     android:layout_width="0.8in"
                     android:layout_height="match_parent"
 
                     android:elevation="3dp"
-                    android:src="@drawable/ic_bus_svgrepo_com">
+                    android:src="@drawable/bus_animated">
 
-                </ImageView>
+                </pl.droidsonroids.gif.GifImageView>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -84,7 +86,7 @@
 
                     android:text="Bima Hospital,Indrapuri"
                     android:textColor="@color/black"
-                    android:textSize="23sp"
+                    android:textSize="20sp"
                     android:textStyle="bold">
 
                 </TextView>
@@ -98,14 +100,14 @@
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
-                <ImageView
+                <pl.droidsonroids.gif.GifImageView
                     android:layout_width="0.8in"
                     android:layout_height="match_parent"
 
                     android:elevation="3dp"
-                    android:src="@drawable/ic_bus_svgrepo_com">
+                    android:src="@drawable/bus_animated">
 
-                </ImageView>
+                </pl.droidsonroids.gif.GifImageView>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -114,7 +116,7 @@
 
                     android:text="Mata Mandir,Nehru Nagar"
                     android:textColor="@color/black"
-                    android:textSize="23sp"
+                    android:textSize="20sp"
                     android:textStyle="bold">
 
                 </TextView>
@@ -129,8 +131,8 @@
     <TextView
         android:id="@+id/Title"
 
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="15dp"
@@ -141,12 +143,14 @@
         android:paddingRight="10dp"
 
         android:text="Select Route/Destination"
-        android:textColor="@color/black"
+        android:textColor="@color/cyan"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/mainScrollView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
