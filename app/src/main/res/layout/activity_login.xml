@@ -43,7 +43,7 @@
         android:layout_marginBottom="144dp"
         android:text="Login"
         android:backgroundTint="@color/white"
-        android:textColor="@color/black"
+        android:textColor="@color/cyan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.161"
@@ -58,7 +58,7 @@
         android:onClick="onClickRegisterBtn"
 
         android:text="Register"
-        android:textColor="@color/black"
+        android:textColor="@color/cyan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.849"
